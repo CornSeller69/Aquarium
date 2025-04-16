@@ -1,0 +1,48 @@
+@font-face {
+      font-family: 'Blob';
+      src: url('mats/Blob.otf');
+}
+
+#header {
+      background-image: url('mats/sand.jpg');
+      background-repeat: repeat;
+      min-height: 12%;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 2;
+      font-family: 'Blob';
+}
+#header h1 {
+      font-size: 50px;
+      font-style: italic;
+      user-select: none;
+}
+#header h3 {
+      font-size: 25px;
+      text-decoration: underline wavy;
+      cursor: pointer;
+      user-select: none;
+}
+
+#main {
+      width: 100%;
+      background-image: url('mats/water.webp');
+      background-repeat: repeat;
+      overflow-y: auto;
+      position: absolute;
+      top: 12%; left: 0;
+      z-index: 1;
+      display: flex;
+      justify-content:center;
+      flex-wrap: wrap;
+}
+
+.fishes {
+      width: 33.33%;
+      padding: 10px;
+}
+.fishes img {
+      width: 100%;
+}
